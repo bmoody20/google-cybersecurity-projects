@@ -76,15 +76,3 @@ This reflects the type of reasoning expected in daily SOC triage and risk assess
 
 ## 💬 Personal Reflection
 This course built the foundation for my cybersecurity journey. I developed a strong understanding of how organisations think about risk, how security controls map to business objectives, and how analysts document and communicate findings. It also strengthened my analytical thinking and prepared me for hands-on work in later modules.
-
----
-
-## ⭐ Why This Course Matters
-This course illustrates my ability to:
-- Understand the fundamentals that underpin every security role  
-- Think like an analyst rather than just follow instructions  
-- Produce clear, structured documentation
-- Apply frameworks and concepts used in real-world security environments  
-
----
-
