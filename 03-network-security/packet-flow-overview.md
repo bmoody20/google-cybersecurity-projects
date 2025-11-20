@@ -8,6 +8,7 @@ Understanding how packets travel across a network is essential for any cybersecu
 # Packet Flow Diagram
 
 flowchart LR
+
     A[User Device<br/>(Laptop / Phone)] --> B[NIC<br/>(Network Card)]
     B --> C[Switch<br/>(Local Network)]
     C --> D[Router<br/>(Gateway / NAT)]
