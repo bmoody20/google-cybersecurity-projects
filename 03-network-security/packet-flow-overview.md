@@ -7,45 +7,14 @@ Understanding how packets travel across a network is essential for any cybersecu
 
 # Packet Flow Diagram
 
-+------------------+
-|   User Device    |
-| (Laptop / Phone) |
-+--------+---------+
-         |
-         v
-+------------------+
-|       NIC        |
-| (Network Card)   |
-+--------+---------+
-         |
-         v
-+------------------+
-|      Switch      |
-|   Local Network  |
-+--------+---------+
-         |
-         v
-+------------------+
-|      Router      |
-| Gateway / NAT    |
-+--------+---------+
-         |
-         v
-+------------------+
-|     Firewall     |
-| Packet Filtering |
-+--------+---------+
-         |
-         v
-+---------------------------+
-|   ISP / Public Internet   |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-|     Destination Server    |
-|  Website / API / Cloud    |
-+---------------------------+
+flowchart LR
+    A[User Device<br/>(Laptop / Phone)] --> B[NIC<br/>(Network Card)]
+    B --> C[Switch<br/>(Local Network)]
+    C --> D[Router<br/>(Gateway / NAT)]
+    D --> E[Firewall<br/>(Packet Filtering)]
+    E --> F[ISP / Public Internet]
+    F --> G[Destination Server<br/>(Website / API / Cloud)]
+
 
 
 ---
