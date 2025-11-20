@@ -27,7 +27,7 @@ A risk register helps analysts track and prioritise risks by evaluating:
 
 ---
 
-## 🎯 Key Takeaways
+## 🎯 Reflection
 
 - Risks become critical when **high likelihood** meets **high impact**  
 - Many issues stem from **access mismanagement**  
